@@ -99,7 +99,7 @@ function App() {
     <form style={styles.formBackground} onSubmit={handleSubmit}>
       <h2 style={styles.name}>Spidr Air Fryer</h2>
 
-      <img src="/AirFryer.png" alt="Spidr Air Fryer" style={styles.logo} />
+      <img src={process.env.PUBLIC_URL + "/AirFryer.png"} alt="Spidr Air Fryer" style={styles.logo} />
 
       <label style={styles.label}>First Name</label>
       <input 
